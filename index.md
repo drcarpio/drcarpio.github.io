@@ -1,5 +1,3 @@
-### Jose Carpio
-
 {% assign orderedRepos = site.github.public_repositories | sort: 'stargazers_count' | reverse %}
 {% for repository in orderedRepos %}
 {% if repository.stargazers_count > 0 %}
