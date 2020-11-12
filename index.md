@@ -4,7 +4,7 @@
 {% for repository in orderedRepos %}
 
 {% assign homepageLength = repository.homepage | size %}
-{% if homepageLength > 0 %}
+{% if homepageLength > 0 && repository.name == 'patchwords' %}
 ### {{repository.name}} | [repo]({{ repository.html_url }}) | [pages]({{ repository.homepage }})
 {% else %}
 ### {{repository.name}} | [repo]({{ repository.html_url }})
