@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-### Jose Carpio
+### José Carpio
 
 I am a senior at Columbia University studying creative writing and computer science. 
 
