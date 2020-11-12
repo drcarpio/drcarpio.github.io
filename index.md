@@ -4,10 +4,12 @@
 {% for repository in orderedRepos %}
 
 {% assign homepageLength = repository.homepage | size %}
-{% if homepageLength > 0 && repository.stargazers_count > 0 %}
+{% if homepageLength > 0 %}
+{% if repository.stargazers_count > 0 %}
 ### {{repository.name}} | [repo]({{ repository.html_url }}) | [pages]({{ repository.homepage }})
 {% else %}
 ### {{repository.name}} | [repo]({{ repository.html_url }})
+{% endif %}
 {% endif %}
 <div style="border-left: 3px solid #CCC; padding-left: 10px; margin-bottom: 30px">
 <i>{{repository.description}}</i>
