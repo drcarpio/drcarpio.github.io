@@ -6,4 +6,8 @@ permalink: /about/
 
 ### Jose Carpio
 
-Here is some information about me. 
+I am a senior at Columbia University studying creative writing and computer science. 
+
+Editiorial Assistant @ [Ki Smith Gallery](https://www.kismithgallery.com)
+
+Personal website @ [fudlube](https://www.fudlube.com)
