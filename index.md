@@ -1,7 +1,8 @@
 ### title
 
-{% assign orderedRepos = site.github.public_repositories | where: 'stargazers_count' > 0 | sort: 'stargazers_count' | reverse %}
+{% assign orderedRepos = site.github.public_repositories | sort: 'stargazers_count' | reverse %}
 {% for repository in orderedRepos %}
+{% if repository.stargazers_count > 0 %}
 
 {% assign homepageLength = repository.homepage | size %}
 {% if homepageLength > 0 %}
@@ -14,4 +15,5 @@
 <p style="margin-top: 5px"><span style="margin-right:10px">{% octicon repo-forked size:small%} {{repository.forks_count}}</span> {% octicon star size:small %} {{repository.stargazers_count}} </p>
 </div>
 
+{% endif %}
 {% endfor %}
