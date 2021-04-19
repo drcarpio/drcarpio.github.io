@@ -6,8 +6,6 @@ permalink: /about/
 
 ### José Carpio
 
-I am a senior at Columbia University studying creative writing and computer science. 
-
-Editorial Assistant @ [Ki Smith Gallery](https://www.kismithgallery.com)
+I am a software engineer at Fidelity Investments.
 
 Personal website @ [fudlube](https://www.fudlube.com)
